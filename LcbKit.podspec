@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "lcb123" => "lcb123_2018@163.com" }
   # Or just: spec.author    = "lcb"
-  # spec.authors            = { "lcb" => "liuchengbin@laoyuegou.com" }
+  # spec.authors            = { "lcb" => "lcb123_2018@163.com" }
   # spec.social_media_url   = "https://twitter.com/lcb"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -132,5 +132,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+    spec.dependency 'MJRefresh'
+    spec.dependency 'YYCache'
+    spec.dependency 'AFNetworking'
 
 end
